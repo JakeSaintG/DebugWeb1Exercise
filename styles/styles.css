@@ -2,7 +2,8 @@
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    border: 1px solid red;
+    /* Fix 1: borders everywhere!!! */
+    /* border: 1px solid red; */
 }
 
 input[type="text"] {
@@ -47,7 +48,8 @@ nav {
 }
 
 nav > ul {
-    display: block;
+    /* Fix 2: Why is this menu not looking right? */
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 1em;
@@ -55,7 +57,7 @@ nav > ul {
 }
 
 #profile {
-    display: none;
+    display: none; /* temp */
     justify-content: center;
     align-items: center;
     gap: 1rem;
@@ -75,12 +77,12 @@ form {
     margin-bottom: 1rem;
 }
 
-/* Fix 2: remove closing bracket below */
+/* Fix 3: remove closing bracket below */
 h2 {
     color: #d62161;
     text-align: center;
     font-weight: bold;
-
+}
 
 footer {
     margin-top: auto;

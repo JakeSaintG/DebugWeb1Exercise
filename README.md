@@ -13,3 +13,18 @@ In addition to the 5 issues, there are 2 bonus questions that your intern has as
 
 ## REMEMBER!
 Developers work in a team. In this team, you have a couple of Senior Devs that you can reach out to if you get stuck. Your mentors won't directly answer the question like a Senior Dev might in a real team, but they may point you in the right direction.
+
+## The 5 issues
+Note that line numbers may have changed from the main branch:
+
+CSS:
+1. Borders everywhere! 
+2. Missing bracket in CSS
+3. Why is the menu not in the right spot?
+
+HTML:
+4. Broken image in HTML
+5. Make the site show that Misha is "Looking for work". Will accept hard coding "Looking for work" but we prefer to see it indexed appropriately. 
+
+JS:
+6. Unlinked JS file

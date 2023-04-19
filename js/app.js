@@ -18,8 +18,8 @@ function populateData() {
 
     // Add job searching to details div.
     const jobSearching = document.createElement('p')
-    // Fix 5: job searching
-    jobSearching.textContent = `Currently: ${siteData.jobSearch[2]}`;
+    /*====== Fix 6: job searching =====*/
+    jobSearching.textContent = `Currently: ${siteData.jobSearch[0]}`;
     detailsDiv.appendChild(jobSearching);
     
     // Add skills to details div.
