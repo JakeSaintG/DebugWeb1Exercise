@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Debug Exercise</title>
+        <link rel="stylesheet" href="styles/normalize.css" />
+        <link rel="stylesheet" href="styles/styles.css" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header role="banner">
+            <h1>MeSpace</h1>
+        </header>
+        <nav role="navigation" aria-label="pagenav">
+            <ul>
+                <li>
+                    <a href="https://www.codelouisville.org/">About</a>
+                </li>
+                <li>
+                    <a href="https://www.codelouisville.org/mentor">Mentor</a>
+                </li>
+                <li>
+                    <a href="https://www.codelouisville.org/contact">Contact</a>
+                </li>
+                <li>
+                    <a href="https://www.codelouisville.org/hire">Hire</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section class="about-me">
+                <h2>About Me:</h2>
+                <button id="show-profile" class="main-button" type="button" onclick="populateData()">Show Profile</button>
+                <div id="profile">
+                    <img src="img/squeaks.webp" alt="Picture of Misha" width="200">
+                    <div id="details"></div>
+                </div>
+            </section>
+            <section class="learn-more">
+                <h2>Learn More:</h2>
+                <p class="learn-more-desc">Please enter your name here if you are interested in learning more about me! I will reach out within 2 business days.</p>
+                <form>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname" value="Misha"/>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname" value="Cat"/>
+                    <input class="main-button" type="submit" value="Submit" onclick="submitUpdate()" />
+                </form>
+            </section>
+        </main>
+        <footer role="contentinfo">
+            <a href="https://www.codelouisville.org/">
+                <img src="img/codelouisville.webp" alt="Code Louisville Logo" class="code-lou-logo"/>
+            </a>
+        </footer>
+        <script src="app.js"></script>
+        <script src="js/bonus.js"></script>
+    </body>
+</html>
