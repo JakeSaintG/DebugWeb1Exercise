@@ -28,3 +28,7 @@ HTML:
 
 JS:
 6. Unlinked JS file
+
+BONUS:
+1. Looping is not the best way to handle building that string. Joining is simpler any way!
+2. Button is of type "Submit" which has the default behavior of reloading the page.
