@@ -24,11 +24,10 @@ function populateData() {
     
     // Add skills to details div.
     const skills = document.createElement('p')
-    let skillsTxt = 'Skills: '
 
-    siteData.skills.forEach((e) => {
-        skillsTxt += `${e}, `;
-    });
+    /*====== Fix 7: trailing comma =====*/
+    let skillsTxt = `Skills: ${siteData.skills.join(", ")}`
+
     skills.textContent = skillsTxt;
     detailsDiv.appendChild(skills);
 };
