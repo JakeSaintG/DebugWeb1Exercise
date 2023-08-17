@@ -12,7 +12,7 @@ In addition to the 5 issues, there are 2 bonus questions that your intern has as
 - The trailing comma on the Skills section feels off. What's a clever way to get rid of it?
 
 ## If done during class
-If we have time to do this exercise during class, we will take you through the process of creating a new branch and making a pull request. For simplicity, we won't be making a fork and the mentors will demo this process. Be sure to follow along as this process will closely mimic how work is done on the job!
+If we have time to do this exercise during class, we will take you through the process of creating a new branch and making a pull request. For simplicity, we won't be making a fork and the mentors will be demoing the PR process. Be sure to follow along as this process will closely mimic how work is done on the job!
 
 ## REMEMBER!
 Developers work in a team. In this team, you have a couple of Senior Devs that you can reach out to if you get stuck. Your mentors won't directly answer the question like a Senior Dev might in a real team, but they may point you in the right direction.
