@@ -2,7 +2,6 @@
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    border: 1px solid red;
 }
 
 input[type="text"] {
@@ -47,7 +46,7 @@ nav {
 }
 
 nav > ul {
-    display: block;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 1em;
@@ -80,7 +79,7 @@ h2 {
     color: #d62161;
     text-align: center;
     font-weight: bold;
-
+}
 
 footer {
     margin-top: auto;

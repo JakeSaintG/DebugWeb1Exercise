@@ -9,7 +9,7 @@ function populateData() {
     document.getElementById('profile').style.display = 'flex';
     document.getElementById('show-profile').style.display = 'none';
 
-    let detailsDiv = document.getElementById('details');
+    const detailsDiv = document.getElementById('details');
 
     // Add name to details div.
     const name = document.createElement('p')
@@ -18,17 +18,13 @@ function populateData() {
 
     // Add job searching to details div.
     const jobSearching = document.createElement('p')
-    // Fix 5: job searching
-    jobSearching.textContent = `Currently: ${siteData.jobSearch[2]}`;
+    jobSearching.textContent = `Currently: ${siteData.jobSearch[0]}`;
     detailsDiv.appendChild(jobSearching);
     
     // Add skills to details div.
     const skills = document.createElement('p')
-    let skillsTxt = 'Skills: '
-
-    siteData.skills.forEach((e) => {
-        skillsTxt += `${e}, `;
-    });
+    let skillsTxt = `Skills: ${siteData.skills.join(", ")}`
+    
     skills.textContent = skillsTxt;
     detailsDiv.appendChild(skills);
 };
