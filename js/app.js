@@ -9,7 +9,7 @@ function populateData() {
     document.getElementById('profile').style.display = 'flex';
     document.getElementById('show-profile').style.display = 'none';
 
-    let detailsDiv = document.getElementById('details');
+    const detailsDiv = document.getElementById('details');
 
     // Add name to details div.
     const name = document.createElement('p')
