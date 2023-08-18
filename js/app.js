@@ -18,13 +18,16 @@ function populateData() {
 
     // Add job searching to details div.
     const jobSearching = document.createElement('p')
-    jobSearching.textContent = `Currently: ${siteData.jobSearch[0]}`;
+    jobSearching.textContent = `Currently: ${siteData.jobSearch[2]}`;
     detailsDiv.appendChild(jobSearching);
     
     // Add skills to details div.
     const skills = document.createElement('p')
-    let skillsTxt = `Skills: ${siteData.skills.join(", ")}`
-    
+    let skillsTxt = 'Skills: '
+
+    siteData.skills.forEach((e) => {
+        skillsTxt += `${e}, `;
+    });
     skills.textContent = skillsTxt;
     detailsDiv.appendChild(skills);
 };
