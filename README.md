@@ -17,17 +17,13 @@ Developers work in a team. In this team, you have a couple of Senior Devs that y
 ## The 5 issues
 Note that line numbers may have changed from the main branch:
 
-CSS:
-1. Borders everywhere! 
-2. Missing bracket in CSS
-3. Why is the menu not in the right spot?
-
-HTML:
-4. Broken image in HTML
-5. Make the site show that Misha is "Looking for work". Will accept hard coding "Looking for work" but we prefer to see it indexed appropriately. 
-
-JS:
-6. Unlinked JS file
+Issues:
+1. Borders everywhere! (CSS)
+2. Missing bracket (CSS)
+3. Menu is not in the right spot (CSS)
+4. Broken image (HTML)
+5. Make the site show that Misha is "Looking for work". Will accept hard coding "Looking for work" but we prefer to see it indexed appropriately. (JS)
+6. Unlinked JS file (HTML technically)
 
 BONUS:
 1. Looping is not the best way to handle building that string. Joining is simpler any way!
