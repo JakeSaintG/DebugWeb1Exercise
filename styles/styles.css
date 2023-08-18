@@ -2,6 +2,7 @@
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    border: 1px solid red;
 }
 
 input[type="text"] {
@@ -46,7 +47,7 @@ nav {
 }
 
 nav > ul {
-    display: flex;
+    display: block;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 1em;
@@ -74,12 +75,11 @@ form {
     margin-bottom: 1rem;
 }
 
-/* Fix 2: remove closing bracket below */
 h2 {
     color: #d62161;
     text-align: center;
     font-weight: bold;
-}
+
 
 footer {
     margin-top: auto;
